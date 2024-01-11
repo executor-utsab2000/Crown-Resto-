@@ -1,0 +1,33 @@
+#banquet_booking{
+    background-image: url(banquet/The-Kohinoor-Ac-Banquet-Hall-at-Sunnys-World-Pune-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size:cover;
+     height: auto;
+     width: 100vw;
+     animation: image 60s infinite alternate;
+  }
+  
+              @keyframes image
+              {
+                  0%{ background-image: url('banquet/Banquet meeting.jpg');}
+                  20% {background-image: url('banquet/Banquet meeting1.jpg');}
+                  40%{ background-image: url('banquet/The-Kohinoor-Ac-Banquet-Hall-at-Sunnys-World-Pune-1.jpg');}
+                  60%{ background-image: url('banquet/Wedding reception 1.jpg');}
+                  80%{ background-image: url('banquet/Wedding reception 2.jpg');}
+          100%{ background-image: url('banquet/Wedding Table Set up.jpg');}
+                  }
+  
+  #banquet_content{
+    border: white 4px solid;
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    background-color: #1C2833 ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: .5s;
+    
+  }
+  
+  #banquet_content:hover{
+    transform: scale(1.05);
+  }

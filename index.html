@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝕮𝖗𝖔𝖜𝖓 𝕽𝖊𝖘𝖙𝖔 </title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+
+ <!-- boostrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- boostrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+ <!-- fa fa class  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+ 
+  <!-- ------ -->
+  
+  <!-- typed library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+  
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+  <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+  <link rel="stylesheet" href="style_index.css">
+  <link rel="stylesheet" href="nav_bar.css">
+  <link rel="stylesheet" href="side_pane_cart.css">
+  <link rel="stylesheet" href="general_div_info.css">
+  <link rel="stylesheet" href="banquet_animation.css">
+  <link rel="stylesheet" href="category_flip_cards.css">
+  <link rel="stylesheet" href="card_special_dish.css">
+  <link rel="stylesheet" href="UI_elements.css">
+  <link rel="stylesheet" href="map_locator_location.css">
+  <link rel="stylesheet" href="footer.css">
+  <script src="js file.js"></script>
+
+</head>
+<body>
+        <div class="container-fluid">
+            <div class="row bg-dark ">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="container" id="marquee_bg">
+                        <marquee> WE PROVIDE 20% DISCOUNT ON ONLINE ORDERS</marquee>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-12" id="bg_index">
+
+                  <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="nav_bar" >
+                    <div class="container-fluid">
+                      
+                       <span class="navbar-brand">
+                        <img src="logo.png" alt="logo" style="height:5rem;width:7rem ;" id="nav_bar_collapse">
+                      </span>
+    
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars" style="color: azure;" id="toggler_icon" ></span>
+                      </button>
+    
+    
+                      <div class="collapse navbar-collapse" id="navbarNav" >
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-home" style="margin-right: 5px;"></i>Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#table_reservation_bg"><i class="fa fa-ticket" style="margin-right: 5px;"></i>Reservation</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#categories"><i class="fa fa-list-alt" style="margin-right: 5px;"></i>Categories</a>
+                            </li>
+    
+                            <span class="navbar-brand">
+                              <img src="logo.png" alt="logo" style="height: 8rem;;width:12rem ;" id="nav_bar_expand">
+                           </span>
+    
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><i class="fa fa-star" style="margin-right: 5px;"></i>Reviews</a>
+                            </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contact"><i class="fa fa-phone" style="margin-right: 5px;"></i>Contact Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#about"><i class="fa fa-info-circle" style="margin-right: 5px;"></i>About Us</a>
+                          </li> 
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  
+                <!-- --------------------------------------------------------------------------------------- -->
+                  <div class="row">
+                    <div class="row ps-5">
+                      <div class="col-6  mt-3 d-flex justify-content-start">
+                        <i class="fa fa-whatsapp text-success" id="cart" ></i>
+                       </div>
+                      <div class="col-6 mt-3 pe-5 d-flex justify-content-end">
+                        <i class="fa fa-shopping-cart text-danger" id="cart" data-bs-toggle="offcanvas" data-bs-target="#side_pane" aria-controls="offcanvasRight"></i>
+                       </div>
+                    </div>
+                      <br>
+                  
+                    <div class="col-12 order-1 order-lg-0">
+                      <div class="row mt-5 ">
+      
+                        <div class="col-lg-4   d-flex justify-content-center my-1 px-5 " data-aos="zoom-in-up ">
+                         <a href="#order_online">
+                           <button type="button" class="btn btn-outline-danger button_1">Online Order</button>
+                         </a>
+                        </div>
+        
+                        <div class="col-lg-4  d-flex justify-content-center my-1 px-5" data-aos="zoom-in-up">
+                         <a href="banquet_booking.html">
+                           <button type="button" class="btn btn-outline-danger button_1" >Banquet Booking</button>
+                         </a>
+                        </div>
+        
+                        <div class="col-lg-4  d-flex justify-content-center my-1 px-5" data-aos="zoom-in-up">
+                         <a href="#table_reservation_bg">
+                           <button type="button" class="btn btn-outline-danger button_1">Table Booking</button>
+                         </a>
+                        </div>
+        
+                      </div>
+                    </div>
+                  </div>
+  
+                
+                <!-- ---------------------------------------------------------------------------------------- -->
+                <br><br><br>
+                <div class="col-12 order-0 order-lg-1">
+                  <div class="row mx-5">
+  
+                    <div class="col-12 mx-2 d-flex justify-content-center">
+                      <span class="txt_1">
+                        ♛ D𝖊𝖑𝖎𝖈𝖎𝖔𝖚𝖘 ♛
+                      </span>
+                    </div>
+    
+                    <div class="col-12 mx-2 d-flex justify-content-center text-center" data-aos="fade-up-up">
+                      <span class="txt_2">
+                        𝓜𝓾𝓵𝓽𝓲 <span class="text-danger"> 𝓒𝓾𝓲𝓼𝓲𝓷𝓮 </span> 𝓡𝓮𝓼𝓽𝓪𝓾𝓻𝓮𝓷𝓽
+                      </span>
+                    </div>
+    
+                    <div class="col-12 mx-2 d-flex justify-content-center" data-aos="fade-up-up">
+                      <span class="txt_3">
+                        ⸻✮⸻
+                      </span>
+                    </div>
+    
+                    <div class="col-12 mt-2 mb-5 d-flex justify-content-center text-center" data-aos="fade-up-up">
+                      <span class="txt_4">
+                        (𝙄𝙣𝙙𝙞𝙖𝙣 , 𝙏𝙖𝙣𝙙𝙤𝙤𝙧, 𝙈𝙪𝙜𝙝𝙡𝙖𝙞, 𝘾𝙝𝙞𝙣𝙚𝙨𝙚 𝙖𝙣𝙙 𝘾𝙤𝙣𝙩𝙞𝙣𝙚𝙣𝙩𝙖𝙡) 
+                      </span>
+                    </div>
+    
+                </div>
+               </div>
+              
+              
+             <!--------------------------------------------------------------------------------------------  -->
+             <br><br><br><br>
+             <div class="row w-100">
+  
+                  <div class="col-lg-9 ps-4" data-aos="zoom-in">
+                    <span class="location_ph_txt  text-center">
+                      Location: ⸻
+                       <i class="fa fa-map-marker" style="color: red;font-size: 25px;margin-right: 2%;"></i>
+                      <span style="font-size: 12px;"> 358,Indira Gandhi Road Konnagar, Hooghly – 712235 (OPP. of More Departmental Store)</span>
+                    </span>
+                  </div>
+                
+  
+  
+                  <div class="col-lg-3 ps-4 mt-3" data-aos="zoom-in-down">
+                    <span class="location_ph_txt  text-center">
+                      Contact: ⸻
+                       <i class="fa fa-phone" style="color: red;font-size: 25px;margin-right: 2%;"></i>
+                      <span style="font-size: 12px;">+91 8017 720 495</span>
+                    </span>
+                  </div>
+             </div>
+             <br><br><br>
+             <!--------------------------------------------------------------------------------------------  -->
+            <div class="row">
+              <div class="col-12 ps-4">
+                <a href="https://play.google.com/store/apps/details?id=crownresto.com"><img src="playstore.png" id="playstore"></a>
+               </div>
+              </div>
+              
+               
+              
+            
+             <br>
+               
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="side_pane" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  
+                  <div class="offcanvas-body">
+                    <div class="row" id="side_pane">
+                        <div class="col-12 d-flex justify-content-center"  >
+                          <img src="pizza.gif" id="gif">
+                        </div>
+                        <div class="col-12 d-flex justify-content-center my-4">
+                          <a href="#categories">
+                            <button type="button" class="btn btn-danger">Explore Food Items</button> 
+                          </a>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                          <a href="#special">
+                            <button type="button" class="btn btn-danger">Our Speciality Dishes</button> 
+                          </a>
+                        </div>
+
+                    </div>
+                  </div>
+              </div>
+
+
+              
+                <div class="container d-flex justify-content-center">
+                  <div class="alert  alert-dismissible fade show" role="alert" id="alert">
+                  <br>
+                  <i class="fa fa-clock-o" style="font-size: 80px;"></i><br><br>
+                  We're accepting order from 12 Noon to 10 PM only. 
+                  <br><br>
+  
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+              </div>
+              
+
+              
+  
+
+
+              </div>
+            </div>
+
+            <!-- --------------------------------------------------------------------------------------------------- -->
+            <div class="row py-5" id="about">
+              <div class="col-12">
+                <div class="container text-white">
+
+                    <div class="row mt-3">
+                      <div class="col-lg-6 mt-5" data-aos="zoom-in">
+                      <span class="div_header_1"><span class="text-warning">♔⸻ </span>  𝓦𝓮𝓵𝓬𝓸𝓶𝓮</span>
+                      <br><br><br>
+                      <span class="div_header_2">𝘼 𝙅𝙤𝙪𝙧𝙣𝙚𝙮 𝙏𝙝𝙧𝙤𝙪𝙜𝙝 <span class="text-danger" data-aos="zoom-in-up">𝙍𝙤𝙮𝙖𝙡 𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙚</span></span>
+                      </div>
+
+                      <div class="col-lg-6 mt-5 d-flex align-items-end ps-5" data-aos="fade-up">
+                        <span class="div_header_3">
+                          𝗖𝗿𝗼𝘄𝗻 𝗥𝗲𝘀𝘁𝗼 𝗶𝘀 𝗹𝗼𝗰𝗮𝘁𝗲𝗱 𝗶𝗻 𝘁𝗵𝗲 𝗵𝗲𝗮𝗿𝘁 𝗼𝗳 𝗞𝗼𝗻𝗻𝗮𝗴𝗮𝗿, 𝘄𝗶𝘁𝗵 𝗮𝗺𝗽𝗹𝗲 𝗰𝗮𝗿 𝗮𝗻𝗱 𝘁𝘄𝗼 𝘄𝗵𝗲𝗲𝗹𝗲𝗿 𝗽𝗮𝗿𝗸𝗶𝗻𝗴 𝗼𝗻 𝗜𝗻𝗱𝗶𝗿𝗮 𝗚𝗮𝗻𝗱𝗵𝗶 𝗥𝗼𝗮𝗱 𝗼𝗳𝗳𝗲𝗿𝗶𝗻𝗴 𝗰𝗵𝗮𝗿𝗺𝗶𝗻𝗴 𝘃𝗶𝗲𝘄𝘀 𝗼𝗳 𝗯𝘂𝘀𝘆 𝘀𝘁𝗿𝗲𝗲𝘁 𝗹𝗶𝗳𝗲. 𝗠𝗮𝗻𝗮𝗴𝗲𝗱 𝗯𝘆 𝗽𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗛𝗼𝘀𝗽𝗶𝘁𝗮𝗹𝗶𝘁𝘆 𝗳𝗿𝗮𝘁𝗲𝗿𝗻𝗶𝘁𝘆 𝘄𝗶𝘁𝗵 𝗻𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗮𝗻𝗱 𝗶𝗻𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗲𝘅𝗽𝗼𝘀𝘂𝗿𝗲.
+                        </span>
+                      </div>
+                      <!-- ------------------------------------------------ -->
+
+                     
+                        <div class="col-lg-6 mt-5  d-flex align-items-end"  data-aos="fade-up"
+                        data-aos-duration="3000">
+                          <span class="img-container">
+                              <img src="welcome_image1.png" class="img-fluid  img_welcome_1">
+                          </span>
+                          </div>
+  
+  
+                          <div class="col-lg-6 mt-5  d-flex align-items-end ps-lg-5" data-aos="fade-up">
+                            <span class="img-container">
+                                <img src="welcome_image2.png" class="img-fluid  img_welcome_2">
+                            </span>
+                            </div>    
+
+                          </div>
+
+                 </div>
+              </div>
+              
+            </div>
+
+        <!------------------------------------------------------------------------------------------------ -->
+
+        <div class="row" id="categories">
+
+                <div class="col-12 ">
+                  <div class="container text-white">
+
+                    <div class="row mt-5">
+                      <div class="col-12 text-center mt-5" data-aos="fade-down">
+                        <span class="div_header_1 "><span class="text-warning">♔⸻ </span>𝓒𝓪𝓽𝓮𝓰𝓸𝓻𝓲𝓮𝓼</span>
+                        <br><br>
+                        <span class="div_header_3 ">The <span class="text-danger">Categories </span>  we  tour in</span>
+                      </div>
+
+                       <div class="col-12 text-center mt-5" data-aos="zoom-in">
+                        <button class="menu_btn" data-aos="zoom-in">
+                       Our Dining Menu 
+                    </button>
+                      </div>
+
+                      <div class="col-12 text-center d-flex mt-3 justify-content-center" data-aos="zoom-in">
+                        <a href="menu_dining.pdf">
+                          <div class="button">
+                            <div class="button-wrapper">
+                              <div class="text">Download Restaurent Menu</div>
+                                <span class="icon">
+                                 <i class="fa fa-download" style="font-size: 30px;"></i>
+                                </span>
+                              </div>
+                            </div>
+                        </a>
+                      </div>
+
+                      <br><br><br> <br><br><br>
+
+
+                      <div class="col-lg-3 mt-3 justify-content-center d-flex " data-aos="fade-up">
+                        <div class="flip-card">
+                          <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                  <img src="indian.jpg">
+                              </div>
+                              <div class="flip-card-back">
+                                𝙄𝙉𝘿𝙄𝘼𝙉
+                                <a href="#">ᴿᵉᵃᵈ ᴹᵒʳᵉ</a>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+
+                      <div class="col-lg-3 mt-3 justify-content-center d-flex " data-aos="fade-up">
+                        <div class="flip-card">
+                          <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                  <img src="tandoor.jpg">
+                              </div>
+                              <div class="flip-card-back">
+                                𝙏𝘼𝙉𝘿𝙊𝙊𝙍
+                                <a href="#">ᴿᵉᵃᵈ ᴹᵒʳᵉ</a>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 mt-3 justify-content-center d-flex " data-aos="fade-down">
+                      <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="mughlai.jpg">
+                            </div>
+                            <div class="flip-card-back">
+                              𝙈𝙐𝙂𝙃𝙇𝘼𝙄
+                              <a href="#">ᴿᵉᵃᵈ ᴹᵒʳᵉ</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 mt-3 mb-5 d-flex justify-content-center" data-aos="fade-down">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                              <img src="continental.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                            𝘾𝙊𝙉𝙏𝙄𝙉𝙀𝙉𝙏𝘼𝙇
+                            <a href="#">ᴿᵉᵃᵈ ᴹᵒʳᵉ</a>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+                    </div>
+                  </div>
+               </div>
+       </div>
+      <!-- ---------------------------------------------------------------------------------------------- -->
+       <div id="special"></div>
+      <div class="row" id="special_bg">
+        <div class="col-12">
+          <div class="container text-white">
+            <br>
+            <div class="col-12 text-center mt-5" data-aos="zoom-in">
+              <span class="div_header_1"><span class="text-warning">♔⸻ </span>𝓞𝓾𝓻 𝓢𝓹𝓮𝓬𝓲𝓪𝓵𝓲𝓽𝔂</span>
+              <br><br>
+              <span class="div_header_1 ">Our <span class="text-danger" data-aos="zoom-in-up">Speciality Dishes </span> </span>
+            </div>
+            <br><br><br>
+
+            <div class="row">
+
+              <div class="col-lg-4 mb-5 d-flex justify-content-center"data-aos="fade-down-up">
+                <div class="card">
+                  <img src="special/burger.jpg" style="height: 20rem;width: 25rem; position: absolute;">
+                  <div class="card__content">
+                    <p class="card__title">𝕭𝖚𝖗𝖌𝖊𝖗</p>
+                    <p class="card__description"> <br>𝗔 𝗱𝗶𝘀𝗵 𝗰𝗼𝗻𝘀𝗶𝘀𝘁𝗶𝗻𝗴 𝗼𝗳 𝗮 𝗳𝗹𝗮𝘁 𝗿𝗼𝘂𝗻𝗱 𝗰𝗮𝗸𝗲 𝗼𝗳 𝗺𝗶𝗻𝗰𝗲𝗱 𝗯𝗲𝗲𝗳, 𝗼𝗿 𝘀𝗼𝗺𝗲𝘁𝗶𝗺𝗲𝘀 𝗮𝗻𝗼𝘁𝗵𝗲𝗿 𝘀𝗮𝘃𝗼𝘂𝗿𝘆 𝗶𝗻𝗴𝗿𝗲𝗱𝗶𝗲𝗻𝘁, 𝘁𝗵𝗮𝘁 𝗶𝘀 𝗳𝗿𝗶𝗲𝗱 𝗼𝗿 𝗴𝗿𝗶𝗹𝗹𝗲𝗱 𝗮𝗻𝗱 𝘀𝗲𝗿𝘃𝗲𝗱 𝗶𝗻 𝗮 𝘀𝗽𝗹𝗶𝘁 𝗯𝘂𝗻 𝗼𝗿 𝗿𝗼𝗹𝗹 𝘄𝗶𝘁𝗵 𝘃𝗮𝗿𝗶𝗼𝘂𝘀 𝗰𝗼𝗻𝗱𝗶𝗺𝗲𝗻𝘁𝘀 𝗮𝗻𝗱 𝘁𝗼𝗽𝗽𝗶𝗻𝗴𝘀.
+                      "𝗧𝗶𝗹𝗹𝘆 𝗵𝗮𝗱 𝗮 𝗯𝘂𝗿𝗴𝗲𝗿 𝗮𝗻𝗱 𝗳𝗿𝗶𝗲𝘀" </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-5 d-flex justify-content-center" data-aos="zoom-in-down">
+                <div class="card">
+                  <img src="special/pizza.jpg" style="height: 20rem;width: 25rem; position: absolute;">
+                  <div class="card__content">
+                    <p class="card__title">𝕻𝖎𝖟𝖟𝖆</p>
+                    <p class="card__description"> <br>𝘼 𝙙𝙞𝙨𝙝 𝙤𝙛 𝙄𝙩𝙖𝙡𝙞𝙖𝙣 𝙤𝙧𝙞𝙜𝙞𝙣, 𝙘𝙤𝙣𝙨𝙞𝙨𝙩𝙞𝙣𝙜 𝙤𝙛 𝙖 𝙛𝙡𝙖𝙩 𝙧𝙤𝙪𝙣𝙙 𝙗𝙖𝙨𝙚 𝙤𝙛 𝙙𝙤𝙪𝙜𝙝 𝙗𝙖𝙠𝙚𝙙 𝙬𝙞𝙩𝙝 𝙖 𝙩𝙤𝙥𝙥𝙞𝙣𝙜 𝙤𝙛 𝙩𝙤𝙢𝙖𝙩𝙤𝙚𝙨 𝙖𝙣𝙙 𝙘𝙝𝙚𝙚𝙨𝙚, 𝙩𝙮𝙥𝙞𝙘𝙖𝙡𝙡𝙮 𝙬𝙞𝙩𝙝 𝙖𝙙𝙙𝙚𝙙 𝙢𝙚𝙖𝙩, 𝙛𝙞𝙨𝙝, 𝙤𝙧 𝙫𝙚𝙜𝙚𝙩𝙖𝙗𝙡𝙚𝙨.  </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-5 d-flex justify-content-center" data-aos="zoom-in-down">
+              <div class="card">
+                  <img src="special/kebabs.jpg" style="height: 20rem;width: 25rem; position: absolute;">
+                  <div class="card__content">
+                    <p class="card__title">𝕶𝖊𝖇𝖆𝖇𝖘</p>
+                    <p class="card__description"> <br>𝙆𝙚𝙗𝙖𝙗𝙨 𝙖𝙧𝙚 𝙖 𝙥𝙤𝙥𝙪𝙡𝙖𝙧 𝙙𝙞𝙨𝙝 𝙚𝙣𝙟𝙤𝙮𝙚𝙙 𝙞𝙣 𝙫𝙖𝙧𝙞𝙤𝙪𝙨 𝙘𝙪𝙡𝙩𝙪𝙧𝙚𝙨 𝙖𝙧𝙤𝙪𝙣𝙙 𝙩𝙝𝙚 𝙬𝙤𝙧𝙡𝙙. 𝙏𝙝𝙚𝙮 𝙩𝙮𝙥𝙞𝙘𝙖𝙡𝙡𝙮 𝙘𝙤𝙣𝙨𝙞𝙨𝙩 𝙤𝙛 𝙨𝙢𝙖𝙡𝙡 𝙥𝙞𝙚𝙘𝙚𝙨 𝙤𝙛 𝙢𝙚𝙖𝙩, 𝙫𝙚𝙜𝙚𝙩𝙖𝙗𝙡𝙚𝙨, 𝙤𝙧 𝙗𝙤𝙩𝙝, 𝙨𝙠𝙚𝙬𝙚𝙧𝙚𝙙 𝙖𝙣𝙙 𝙜𝙧𝙞𝙡𝙡𝙚.  </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-5 d-flex justify-content-center" data-aos="zoom-in-down">
+               <div class="card">
+                  <img src="special/icecream.jpg" style="height: 20rem;width: 25rem; position: absolute;">
+                  <div class="card__content">
+                    <p class="card__title">𝕴𝖈𝖊 - 𝕮𝖗𝖊𝖆𝖒</p>
+                    <p class="card__description"> <br>𝙄𝙘𝙚 𝙘𝙧𝙚𝙖𝙢 𝙞𝙨 𝙖 𝙥𝙤𝙥𝙪𝙡𝙖𝙧 𝙛𝙧𝙤𝙯𝙚𝙣 𝙙𝙚𝙨𝙨𝙚𝙧𝙩 𝙚𝙣𝙟𝙤𝙮𝙚𝙙 𝙬𝙤𝙧𝙡𝙙𝙬𝙞𝙙𝙚. 𝙄𝙩 𝙞𝙨 𝙢𝙖𝙙𝙚 𝙛𝙧𝙤𝙢 𝙖 𝙘𝙤𝙢𝙗𝙞𝙣𝙖𝙩𝙞𝙤𝙣 𝙤𝙛 𝙢𝙞𝙡𝙠 𝙤𝙧 𝙘𝙧𝙚𝙖𝙢, 𝙨𝙬𝙚𝙚𝙩𝙚𝙣𝙚𝙧𝙨 (𝙪𝙨𝙪𝙖𝙡𝙡𝙮 𝙨𝙪𝙜𝙖𝙧), 𝙛𝙡𝙖𝙫𝙤𝙧𝙞𝙣𝙜𝙨 (𝙨𝙪𝙘𝙝 𝙖𝙨 𝙫𝙖𝙣𝙞𝙡𝙡𝙖, 𝙘𝙝𝙤𝙘𝙤𝙡𝙖𝙩𝙚, 𝙛𝙧𝙪𝙞𝙩, 𝙤𝙧 𝙤𝙩𝙝𝙚𝙧 𝙚𝙭𝙩𝙧𝙖𝙘𝙩𝙨), 𝙖𝙣𝙙 𝙨𝙩𝙖𝙗𝙞𝙡𝙞𝙯𝙚𝙧𝙨 𝙩𝙤 𝙢𝙖𝙞𝙣𝙩𝙖𝙞𝙣 𝙞𝙩𝙨 𝙩𝙚𝙭𝙩𝙪𝙧𝙚 𝗶𝗻 𝙖 𝙨𝙢𝙤𝙤𝙩𝙝 𝙖𝙣𝙙 𝙘𝙧𝙚𝙖𝙢𝙮 𝙘𝙤𝙣𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙮. </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-5 d-flex justify-content-center" data-aos="fade-up">
+                <div class="card">
+                  <img src="special/sweets.jpg" style="height: 20rem;width: 25rem; position: absolute;">
+                  <div class="card__content">
+                    <p class="card__title">𝕾𝖜𝖊𝖊𝖙𝖘</p>
+                    <p class="card__description"> <br>"𝗦𝘄𝗲𝗲𝘁𝘀" 𝗶𝘀 𝗮 𝘁𝗲𝗿𝗺 𝗰𝗼𝗺𝗺𝗼𝗻𝗹𝘆 𝘂𝘀𝗲𝗱 𝘁𝗼 𝗿𝗲𝗳𝗲𝗿 𝘁𝗼 𝘀𝘂𝗴𝗮𝗿𝘆 𝗼𝗿 𝗰𝗼𝗻𝗳𝗲𝗰𝘁𝗶𝗼𝗻𝗲𝗿𝘆 𝘁𝗿𝗲𝗮𝘁𝘀, 𝗼𝗳𝘁𝗲𝗻 𝗰𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝗶𝘇𝗲𝗱 𝗯𝘆 𝘁𝗵𝗲𝗶𝗿 𝗽𝗹𝗲𝗮𝘀𝗮𝗻𝘁 𝘁𝗮𝘀𝘁𝗲 𝗮𝗻𝗱 𝗶𝗻𝗱𝘂𝗹𝗴𝗲𝗻𝘁 𝗻𝗮𝘁𝘂𝗿𝗲. 𝗧𝗵𝗲𝘀𝗲 𝗮𝗿𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝗹𝗹𝘆 𝗵𝗶𝗴𝗵 𝗶𝗻 𝘀𝘂𝗴𝗮𝗿 𝗮𝗻𝗱 𝗰𝗮𝗻 𝗯𝗲 𝗺𝗮𝗱𝗲 𝗳𝗿𝗼𝗺 𝘃𝗮𝗿𝗶𝗼𝘂𝘀 𝗶𝗻𝗴𝗿𝗲𝗱𝗶𝗲𝗻𝘁𝘀, 𝘀𝘂𝗰𝗵 𝗮𝘀 𝗰𝗵𝗼𝗰𝗼𝗹𝗮𝘁𝗲, 𝗰𝗮𝗻𝗱𝗶𝗲𝘀, 𝗰𝗼𝗼𝗸𝗶𝗲𝘀, 𝗰𝗮𝗸𝗲𝘀, 𝗽𝗮𝘀𝘁𝗿𝗶𝗲𝘀, 𝗶𝗰𝗲 𝗰𝗿𝗲𝗮𝗺, 𝗮𝗻𝗱 𝗼𝘁𝗵𝗲𝗿 𝗱𝗲𝘀𝘀𝗲𝗿𝘁 𝗶𝘁𝗲𝗺𝘀. </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-5 d-flex justify-content-center" data-aos="fade-down-up">
+                <div class="card">
+                  <img src="special/mocktail.jpg" style="height: 20rem;width: 25rem; position: absolute;">
+                  <div class="card__content">
+                    <p class="card__title">𝕸𝖔𝖈𝖐𝖙𝖆𝖎𝖑</p>
+                    <p class="card__description"> <br>𝗔 𝗺𝗼𝗰𝗸𝘁𝗮𝗶𝗹 𝗶𝘀 𝗮 𝗻𝗼𝗻-𝗮𝗹𝗰𝗼𝗵𝗼𝗹𝗶𝗰 𝗯𝗲𝘃𝗲𝗿𝗮𝗴𝗲 𝘁𝗵𝗮𝘁 𝗶𝘀 𝗱𝗲𝘀𝗶𝗴𝗻𝗲𝗱 𝘁𝗼 𝗿𝗲𝘀𝗲𝗺𝗯𝗹𝗲 𝗮𝗻𝗱 𝘁𝗮𝘀𝘁𝗲 𝗹𝗶𝗸𝗲 𝗮 𝘁𝗿𝗮𝗱𝗶𝘁𝗶𝗼𝗻𝗮𝗹 𝗰𝗼𝗰𝗸𝘁𝗮𝗶𝗹 𝗯𝘂𝘁 𝘄𝗶𝘁𝗵𝗼𝘂𝘁 𝘁𝗵𝗲 𝗽𝗿𝗲𝘀𝗲𝗻𝗰𝗲 𝗼𝗳 𝗮𝗻𝘆 𝗮𝗹𝗰𝗼𝗵𝗼𝗹𝗶𝗰 𝗶𝗻𝗴𝗿𝗲𝗱𝗶𝗲𝗻𝘁𝘀. 𝗧𝗵𝗲 𝘁𝗲𝗿𝗺 "𝗺𝗼𝗰𝗸𝘁𝗮𝗶𝗹" 𝗶𝘀 𝗮 𝗰𝗼𝗺𝗯𝗶𝗻𝗮𝘁𝗶𝗼𝗻 𝗼𝗳 "𝗺𝗼𝗰𝗸" (𝗺𝗲𝗮𝗻𝗶𝗻𝗴 𝗶𝗺𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝗼𝗿 𝗽𝗿𝗲𝘁𝗲𝗻𝗱𝗶𝗻𝗴 𝘁𝗼 𝗯𝗲 𝘀𝗼𝗺𝗲𝘁𝗵𝗶𝗻𝗴) 𝗮𝗻𝗱 "𝗰𝗼𝗰𝗸𝘁𝗮𝗶𝗹" (𝗮 𝗺𝗶𝘅𝗲𝗱 𝗱𝗿𝗶𝗻𝗸 𝘁𝘆𝗽𝗶𝗰𝗮𝗹𝗹𝘆 𝗰𝗼𝗻𝘁𝗮𝗶𝗻𝗶𝗻𝗴 𝗮𝗹𝗰𝗼𝗵𝗼𝗹). </p>
+                  </div>
+                </div>
+              </div>
+              
+
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+
+       <!-- ---------------------------------------------------------------------------------------------- -->
+       <div id="reservation"></div>
+       <div class="row" >
+        <div class="col-12 py-5" id="banquet_booking">
+          
+          <div class="container mt-5">
+            
+            <div class="row">
+              <div class="col-lg-6 text-white" id="banquet_content">
+                <br>
+                <br>
+                <span class="div_header_1" data-aos="zoom-in"><span class="text-warning">♔⸻ </span> 𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰'𝓼  𝓟𝓻𝓲𝓿𝓪𝓽𝓮</span>
+                <br><br><br>
+  
+                <span class="div_header_2" data-aos="fade-down">
+                  𝙋𝙧𝙞𝙫𝙖𝙩𝙚 𝙀𝙫𝙚𝙣𝙩𝙨 𝙖𝙣𝙙 𝘿𝙞𝙣𝙣𝙞𝙣𝙜
+                </span>
+                <br><br><br>
+                <span class="div_header_3" data-aos="fade-up"> 
+                  𝙀𝙖𝙘𝙝 𝙡𝙤𝙘𝙖𝙩𝙞𝙤𝙣 𝙝𝙖𝙨 𝙖 𝙢𝙚𝙣𝙪 𝙩𝙝𝙖𝙩'𝙨 𝙘𝙪𝙧𝙖𝙩𝙚𝙙 𝙟𝙪𝙨𝙩 𝙛𝙤𝙧 𝙩𝙝𝙚𝙢. 𝙎𝙚𝙚 𝙬𝙝𝙖𝙩'𝙨 𝙣𝙚𝙬 𝙖𝙩 𝙮𝙤𝙪𝙧 𝘾𝙖𝙛𝙚𝙨𝙞𝙤 𝙖𝙣𝙙 𝙔𝙤𝙪’𝙡𝙡 𝙛𝙞𝙣𝙙 𝘾𝙖𝙛𝙚𝙨𝙞𝙤 𝘾𝙤𝙫𝙚𝙣𝙩 𝙂𝙖𝙧𝙙𝙚𝙣 𝙢𝙤𝙢𝙚𝙣𝙩𝙨.</span>
+                  <br><br>
+                  <br><br><br><br><br>
+                  <div class="d-flex justify-content-center justify-content-lg-start" data-aos="zoom-in">
+                    <a href="banquet_booking.html">
+                      <button type="button" class="btn btn-outline-danger  banquetBtn px-5">
+                      Book Your Banquet <i class="fa fa-arrow-right"></i>
+                    </button>
+                    </a>
+                  </div>
+              </div>    
+            </div>
+           
+          </div>
+        </div>
+       </div>
+       <!-- ------------------------------------------------------------------------------------ -->
+
+
+       <div class="row">
+        <div class="col-12" id="table_reservation_bg">
+
+            <div class="container bg-dark"  style="border-radius: 20px;">
+
+              <div class="row mt-5 text-white pe-3">
+
+                <div class="col-lg-6 table_reservation_content my-5">
+                  <br><br>
+                  <span class="div_header_1 " data-aos="zoom-in"><span class="text-warning">♔⸻ </span>𝓛𝓸𝓬𝓪𝓽𝓲𝓸𝓷</span>
+                  <br><br>
+                  <span class="div_header_2" data-aos="zoom-in">
+                    𝙒𝙚 𝙖𝙧𝙚 𝙞𝙣 𝙮𝙤𝙪𝙧 <span class="text-danger">𝙇𝙤𝙘𝙖𝙡𝙚</span>
+                  </span>
+                  <br><br><br>
+                  <span class="div_header_3" data-aos="zoom-in-up">
+                    𝘾𝙧𝙤𝙬𝙣 𝙍𝙚𝙨𝙩𝙤 𝙞𝙨 𝙡𝙤𝙘𝙖𝙩𝙚𝙙 𝙞𝙣 𝙩𝙝𝙚 𝙝𝙚𝙖𝙧𝙩 𝙤𝙛 𝙆𝙤𝙣𝙣𝙖𝙜𝙖𝙧, 𝙬𝙞𝙩𝙝 𝙖𝙢𝙥𝙡𝙚 𝙘𝙖𝙧 𝙖𝙣𝙙 𝙩𝙬𝙤 𝙬𝙝𝙚𝙚𝙡𝙚𝙧 𝙥𝙖𝙧𝙠𝙞𝙣𝙜 𝙤𝙣 𝙄𝙣𝙙𝙞𝙧𝙖 𝙂𝙖𝙣𝙙𝙝𝙞 𝙍𝙤𝙖𝙙 𝙤𝙛𝙛𝙚𝙧𝙞𝙣𝙜 𝙘𝙝𝙖𝙧𝙢𝙞𝙣𝙜 𝙫𝙞𝙚𝙬𝙨 𝙤𝙛 𝙗𝙪𝙨𝙮 𝙨𝙩𝙧𝙚𝙚𝙩 𝙡𝙞𝙛𝙚. 𝙈𝙖𝙣𝙖𝙜𝙚𝙙 𝙗𝙮 𝙥𝙧𝙤𝙛𝙚𝙨𝙨𝙞𝙤𝙣𝙖𝙡𝙨 𝙛𝙧𝙤𝙢 𝙩𝙝𝙚 𝙃𝙤𝙨𝙥𝙞𝙩𝙖𝙡𝙞𝙩𝙮 𝙛𝙧𝙖𝙩𝙚𝙧𝙣𝙞𝙩𝙮 𝙬𝙞𝙩𝙝 𝙣𝙖𝙩𝙞𝙤𝙣𝙖𝙡 𝙖𝙣𝙙 𝙞𝙣𝙩𝙚𝙧𝙣𝙖𝙩𝙞𝙤𝙣𝙖𝙡 𝙚𝙭𝙥𝙤𝙨𝙪𝙧𝙚 𝘾𝙧𝙤𝙬𝙣 𝙍𝙚𝙨𝙩𝙤 𝙗𝙤𝙖𝙨𝙩𝙨 𝙩𝙤 𝙗𝙚 𝙤𝙣𝙚 𝙤𝙛 𝙩𝙝𝙚 𝙗𝙚𝙨𝙩 𝙝𝙞𝙜𝙝 𝙚𝙣𝙙 𝙛𝙞𝙣𝙚 𝙙𝙞𝙣𝙞𝙣𝙜 𝙧𝙚𝙨𝙩𝙖𝙪𝙧𝙖𝙣𝙩𝙨 𝙞𝙣 𝙩𝙝𝙚 𝙚𝙣𝙩𝙞𝙧𝙚 𝙙𝙞𝙨𝙩𝙧𝙞𝙘𝙩 𝙤𝙛 𝙃𝙤𝙤𝙜𝙡𝙮.
+               </span>                    
+                </div>
+
+                  <div class="col-lg-6 table_reservation_content my-5" data-aos="zoom-in-up" >
+                              <div class="row my-3 mx-5">
+                              <span class="div_header_4 mt-4" >
+                                𝗕𝗼𝗼𝗸 𝗬𝗼𝘂𝗿 𝗧𝗮𝗯𝗹𝗲
+                              </span>
+                              <br><br><br><br>
+                                <div class="col-lg-6 my-2">
+                                  <div class="coolinput">
+                                    <label for="input" class="text bg-dark">Name:</label>
+                                    <input type="text" placeholder="Write here..." class=" bg-dark ">
+                                </div>
+                              </div>
+
+                              <div class="col-lg-6 my-2">
+                                <div class="coolinput">
+                                  <label for="input" class="text bg-dark">Email:</label>
+                                  <input type="email" placeholder="Write here..." class="bg-dark   ">
+                              </div>
+                            </div>
+
+                            <div class="col-lg-6 my-2">
+                              <div class="coolinput">
+                                <label for="input" class="text bg-dark">How Can We Reach You:</label>
+                                <input type="tel" placeholder="Write here..." class=" bg-dark ">
+                            </div>
+                          </div>
+
+                          <div class="col-lg-6 my-2">
+                            <div class="coolinput">
+                              <label for="input" class="text bg-dark">Date:</label>
+                              <input type="date" placeholder="Write here..." class="bg-dark   ">
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6 my-2">
+                          <div class="coolinput">
+                            <label for="input" class="text bg-dark">Check-In Time:</label>
+                            <input type="time" placeholder="Write here..." class=" bg-dark ">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6 my-2">
+                        <div class="coolinput">
+                          <label for="input" class="text bg-dark">Check-Out Time:</label>
+                          <input type="time" placeholder="Write here..." class="bg-dark   ">
+                      </div>
+                    </div>
+
+                            <div class="col-lg-12 my-2">
+                              <div class="coolinput">
+                                <label for="input" class="text bg-dark">Total No. of Guests:</label>
+                                <input type="text" placeholder="Write here..." class="input bg-dark " >
+                            </div>
+                          </div>
+
+                          <div class="col-lg-12 my-2">
+                            <div class="coolinput">
+                              <label for="input" class="text bg-dark">Additional Information:</label>
+                              <input type="text" placeholder="Write here..." class="input bg-dark " style="height: 10rem;" >
+                          </div>
+                        </div>
+                      
+                        <button type="button" class="btn btn-outline-danger button_1 mt-5" data-aos="zoom-in-up">
+                          Book Your Table <i class="fa fa-arrow-right"></i>
+                        </button>
+                  </div>
+                </div>
+              </div>
+              </div>
+            <br><br><br>
+        </div>
+      </div>
+      <!-- ------------------------------------------------------------------- -->
+
+      <div id="order_online"></div>
+      <div class="row">
+        <div class="col-12 text-white" id="order_bg">
+          <br><br>
+          <div class="container bg-danger mt-5" style="border-radius: 20px;">
+            <div class="row py-5">
+
+              <div class="col-lg-6 py-5 px-5 justify-content-center">
+                  <br><br>
+                <span class="div_header_1 " data-aos="zoom-in-down"><span class="text-warning">♔⸻ </span>𝓓𝓮𝓵𝓲𝓿𝓪𝓻𝔂 </span>
+                      <br><br>
+                      <span class="div_header_2" data-aos="fade-up">𝙏𝙖𝙠𝙚 𝙊𝙪𝙩 <span class="text-warning">𝙎𝙚𝙧𝙫𝙞𝙘𝙚𝙨</span> </span>
+               </div>
+
+               <div class="col-lg-6  my-5 d-flex justify-content-center" data-aos="fade-up">
+                <button type="button" class="btn btn-outline-warning button_1 mt-5 text-white">
+                  Order Online <i class="fa fa-arrow-right"></i>
+                </button>
+              </div>
+
+               <div class="col-12 my-4 d-flex justify-content-center" data-aos="fade-up">
+                <img src="delivary.gif" class="img-fluid" style="height: 13rem; width: 15rem;">
+               </div> 
+               <br><br>              
+              </div>
+
+            </div>
+            <br><br>
+          </div>
+        </div>
+    
+<!-- ---------------------------------------------------------------------------------------------------- -->
+
+        <div id="contact"></div>
+
+       <div class="row">
+        <div class="col-12" id="location_bg">
+          <div class="container text-white my-5 bg-dark" style="border-radius: 20px;">
+          
+            <div class="row my-3">
+
+              <div class="col-lg-4 py-5">
+    
+                <span class="div_header_1 " data-aos="fade-down"><span class="text-warning">♔⸻ </span>𝓥𝓲𝓼𝓲𝓽 <span class="text-danger">𝓒𝓻𝓸𝔀𝓷 𝓡𝓮𝓼𝓽𝓸</span></span>
+                <br><br>
+                <span class="div_header_2" data-aos="fade-down-up">𝐄𝗑ρ𝖾𝗋𝗂𝖾𐓣𝖼𝖾 𝗍ɦ𝖾 <span class="text-danger">𝐑ⱺ𝗒αᥣ𝗍𝗒</span></span>
+                <br><br><br><br>
+                <span class="text-danger" style="font-weight: bold; font-size: 1.5rem;"><span class="text-warning">➼ </span> 𝒀𝒐𝒖𝒓 𝑵𝒆𝒊𝒈𝒉𝒃𝒐𝒖𝒓𝒉𝒐𝒐𝒅:</span>
+                <br>
+                 <span class="text-white"style="font-weight: bold; font-size: .8rem;" data-aos="zoom-in-down">3️⃣5️⃣8️⃣,🇮‌🇳‌🇩‌🇮‌🇷‌🇦‌ 🇬‌🇦‌🇳‌🇩‌🇭‌🇮‌ 🇷‌🇴‌🇦‌🇩‌ (🇨‌🇷‌🇮‌🇵‌🇪‌🇷‌ 🇷‌🇴‌🇦‌🇩‌) <br>
+                🇰‌🇴‌🇳‌🇳‌🇦‌🇬‌🇦‌🇷‌, 🇭‌🇴‌🇴‌🇬‌🇭‌🇱‌🇾‌ – 7️⃣1️⃣2️⃣2️⃣3️⃣5️⃣ <br>
+               (🇴‌🇵‌🇵‌. 🇴‌🇫‌ 🇲‌🇴‌🇷‌🇪‌ 🇩‌🇪‌🇵‌🇦‌🇷‌🇹‌🇲‌🇪‌🇳‌🇹‌🇦‌🇱‌ 🇸‌🇹‌🇴‌🇷‌🇪‌)
+               <br><br>
+               <span class="text-danger" style="font-weight: bold; font-size: 1.5rem;" data-aos="zoom-in-down"><span class="text-warning">➼ </span> 𝑶𝒑𝒆𝒏𝒊𝒏𝒈 𝑯𝒐𝒖𝒓𝒔:</span>
+               <br>
+               <span class="text-white"style="font-weight: bold; font-size: .8rem;" data-aos="zoom-in-down">
+                𝑺𝒖𝒏 – 𝑺𝒂𝒕: <br>
+                1️⃣2️⃣:0️⃣0️⃣ 🇵‌🇲‌ – 1️⃣0️⃣:3️⃣0️⃣ 🇵‌🇲‌
+               </span>
+               <br><br><br><br><br><br>
+              </div>
+
+              <div class="col-lg-8 d-flex justify-content-center py-5" data-aos="zoom-in-up">
+                
+                <div class="mapouter">
+                  <div class="gmap_canvas">
+                    <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=crown resto&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                   </iframe>
+                    <a href="https://connectionsgame.org/">Connections NYT</a>
+                  </div>
+                </div>
+                <br><br><br>
+               </div>
+           </div>
+
+          </div>
+        </div>
+       </div>
+     <!------------------------------------------------------------------------------------------  -->
+      <div class="row">
+        <div class="col-12" id="footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-12 d-flex justify-content-center">
+           <img src="logo.png" id="footer_logo">
+          </div>
+        
+          <div class="col-lg-4 d-flex justify-content-center mt-5">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                      <span class="text-white">𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗼𝘂𝗿 𝗔𝗽𝗽 𝗳𝗿𝗼𝗺 𝗣𝗹𝗮𝘆𝘀𝘁𝗼𝗿𝗲</span>
+                    </div>
+                      <div class="col-12 my-3 d-flex justify-content-center">
+                      <a href="https://play.google.com/store/apps/details?id=crownresto.com"><img src="playstore.png" id="playstore"></a> 
+                     </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 d-flex justify-content-center mt-5">
+             
+              <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                  <span class="text-center text-white footer_txt_1">𝑼𝒏𝒇𝒐𝒓𝒈𝒆𝒕𝒕𝒂𝒃𝒍𝒆 𝒆𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆 𝒘𝒊𝒕𝒉 𝒎𝒐𝒖𝒕𝒉𝒘𝒂𝒕𝒆𝒓𝒊𝒏𝒈 𝒇𝒐𝒐𝒅.</span>
+                </div>
+
+                  <div class="col-12 my-3 d-flex justify-content-center my-4">
+                    <i class="fa fa-phone" style="color:#F1C40F;font-size: 25px;margin-right: 10px;"></i>
+                    <span class="text-center text-white footer_txt_1">+91 - 8017 720 495</span>
+                 </div>
+
+                 <div class="col-12 my-3 d-flex justify-content-center my-4">
+                  <i class="fa fa-envelope" style="color:#F1C40F;font-size: 25px;margin-right: 10px;"></i>
+                  <span class="text-center text-white footer_txt_1">
+                    crownresto.in@gmail.com</span>
+               </div>
+            </div>
+         </div>
+
+
+         <div class="col-lg-4 d-flex justify-content-center mt-5">
+            <div class="row">
+
+              <div class="col-12 d-flex justify-content-center">
+                <a href="#">
+                  <button type="button" class="btn btn-outline-danger button_footer_review">
+                    Review Us on Google
+                    <i class="fa fa-arrow-right" style="margin-left: 10px;"></i>
+                  </button>
+                </a>
+              </div>
+
+              <div class="col-12 d-flex justify-content-center  mt-2">
+                    <div class="container">
+                      <div class="row mt-3 mt-lg-0">
+                        <div class="col-4 d-flex justify-content-center my-2">
+                          <i class="fa fa-youtube bg-danger" style="color: white; font-size: 25px; border:3px solid yellow; border-radius: 20px;padding: 0.6rem 0.6rem;"></i>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center my-2">
+                          <i class="fa fa-facebook-official bg-primary " style="color: white; font-size: 25px; border:3px solid yellow; border-radius: 20px;padding: 0.6rem 0.6rem;"></i>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center my-2">
+                          <i class="fa fa-instagram bg-dark" style="color: white; font-size: 25px; border:3px solid yellow; border-radius: 20px;padding: 0.6rem 0.6rem;"></i>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+
+
+
+            </div>
+        </div>
+        </div>
+<br><br><br><br>
+<div class="row">
+  <div class="col-lg-2 col-md-4 col-6 my-2 d-flex justify-content-center">
+    <a href="index.html#order_online">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">ORDER FOOD ONLINE</button>  
+    </a>
+  </div>
+          
+  <div class="col-lg-2 col-md-4 col-6 my-2 d-flex justify-content-center">
+    <a href="index.html#categories">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">VIEW DINING MENU</button>  
+    </a>
+  </div>
+  <div class="col-lg-2 col-md-4 col-6 my-2 d-flex justify-content-center">
+    <a href="terms_conditions.html">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">TERMS AND CONDITIONS</button>  
+    </a>
+  </div>
+  <div class="col-lg-2 col-md-4 col-6 my-2 d-flex justify-content-center">
+    <a href="cancel_refund.html">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">CANCELLATION AND REFUND</button>  
+    </a>
+  </div>
+  <div class="col-lg-2 col-md-4 col-6 my-2 d-flex justify-content-center">
+    <a href="shipping.html">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">SHIPPING</button>  
+    </a>
+  </div>
+  <div class="col-lg-2 col-md-4 col-6 my-2 d-flex justify-content-center">
+    <a href="privacy.html">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">PRIVACY</button>  
+    </a>
+  </div>
+ 
+    
+</div>
+        <br><br>
+
+        <div class="col-12 d-flex justify-content-center text-white" style="font-size: 20px;font-weight: bold;">
+          <span class="text-warning"><i class="fa fa-copyright" style="font-size: 30px; margin-right: 10px;"></i></span> 𝘾𝙧𝙤𝙬𝙣 𝙍𝙚𝙨𝙩𝙤❟ 𝟮𝟬𝟮𝟭｡ 𝘼𝙡𝙡 𝙧𝙞𝙜𝙝𝙩𝙨 𝙧𝙚𝙨𝙚𝙧𝙫𝙚𝙙｡
+        </div>
+        <br><br><br>
+      </div>
+        </div>
+      </div>
+
+
+
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+    
+            <!-- container-fluid end -->
+        </div>
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+       <script>
+        AOS.init();
+      </script>
+</body>
+</html>

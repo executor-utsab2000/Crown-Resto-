@@ -1,0 +1,67 @@
+.div_header_1{
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.div_header_2{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.div_header_3{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-align: justify;
+  
+  }
+  .div_header_4{
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
+ 
+  /* -------------------------------------------------------------------------------- */ 
+  .button_1{
+    height: auto;
+    width: 23rem;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    fill-opacity: .5; 
+    border-width: 3px;
+    letter-spacing: 1px;
+    border-top-style: double;
+    border-bottom-style: double; 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 20px;
+  }
+  
+
+  .banquetBtn{
+    height: auto;
+    /* width: 23rem; */
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    fill-opacity: .5; 
+    border-width: 3px;
+    letter-spacing: 1px;
+    border-top-style: double;
+    border-bottom-style: double; 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 20px;
+  }
+  
+  @media (max-width: 992px) {
+    .banquetBtn{
+      width: 100%;
+    }
+  }

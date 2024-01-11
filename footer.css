@@ -1,0 +1,38 @@
+#footer{
+    background-image: url(bg_index.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size:cover;
+     height: auto;
+     width: 100vw;
+  }
+  
+  
+  #footer_logo{
+     height: 15rem;
+    width: 21rem;
+  }
+  .footer_txt_1{
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .button_footer_review{
+    height: auto;
+    width: auto;
+    padding: 2rem 5rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #EF9A9A;
+    border-width: 3px;
+    border-radius: 20px;
+  }
+  .footer_btn_small{
+    height: 4rem;
+    width:9rem;
+    font-weight: bold; 
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #EF9A9A;
+    
+  }

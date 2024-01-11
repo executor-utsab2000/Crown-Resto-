@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝕮𝖗𝖔𝖜𝖓 𝕽𝖊𝖘𝖙𝖔 </title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+
+  <!-- boostrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- boostrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+ <!-- fa fa class  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- ------------------------------------------------------------------------------------------------------ -->
+  
+  <!-- typed library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+  
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+  <link rel="stylesheet" href="style_index.css">
+  <link rel="stylesheet" href="nav_bar.css">
+  <link rel="stylesheet" href="side_pane_cart.css">
+  <link rel="stylesheet" href="general_div_info.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="other_pg.css">
+  <link rel="stylesheet" href="other pages ui.css">
+    <script src="js file.js"></script>
+
+</head>
+<body>
+        <div class="container-fluid" style="background-color: #273746;">
+            <div class="row bg-dark ">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="container" id="marquee_bg">
+                        <marquee> WE PROVIDE 20% DISCOUNT ON ONLINE ORDERS</marquee>
+                    </div>
+                </div>
+            </div>
+            
+ <!-- --------------------------------------------------------------------------------------- -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="nav_bar">
+    <div class="container-fluid">
+      
+       <span class="navbar-brand">
+        <img src="logo.png" alt="logo" style="height:5rem;width:7rem ;" id="nav_bar_collapse">
+      </span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars" style="color: azure;" id="toggler_icon" ></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html"><i class="fa fa-home" style="margin-right: 5px;"></i>Home</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link" href="index.html#reservation"><i class="fa fa-ticket" style="margin-right: 5px;"></i>Reservation</a>
+          </li>
+          <li class="nav-item" >
+              <a class="nav-link" href="index.html#categories"><i class="fa fa-list-alt" style="margin-right: 5px;"></i>Categories</a>
+            </li>
+
+            <span class="navbar-brand">
+              <img src="logo.png" alt="logo" style="height: 8rem;;width:12rem ;" id="nav_bar_expand">
+           </span>
+
+            <li class="nav-item" >
+              <a class="nav-link" href="index.html#"><i class="fa fa-star" style="margin-right: 5px;"></i>Reviews</a>
+            </li>
+          <li class="nav-item" >
+            <a class="nav-link" href="index.html#contact"><i class="fa fa-phone" style="margin-right: 5px;"></i>Contact Us</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link" href="index.html#about"><i class="fa fa-info-circle" style="margin-right: 5px;"></i>About Us</a>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<!-- ----------------------------------------------------------------------------------------------------- -->
+   <div class="row ps-5">
+                  <div class="col-6  mt-3 d-flex justify-content-start">
+                    <i class="fa fa-whatsapp text-success" id="cart" ></i>
+                   </div>
+                  <div class="col-6 mt-3 pe-5 d-flex justify-content-end">
+                    <i class="fa fa-shopping-cart text-danger" id="cart" data-bs-toggle="offcanvas" data-bs-target="#side_pane" aria-controls="offcanvasRight"></i>
+                  </div>
+    </div>
+<!-- **************************************************** -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="side_pane" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    
+    <div class="offcanvas-body">
+      <div class="row" id="side_pane">
+          <div class="col-12 d-flex justify-content-center"  >
+            <img src="pizza.gif" id="gif">
+          </div>
+          <div class="col-12 d-flex justify-content-center my-4">
+            <a href="#categories">
+              <button type="button" class="btn btn-danger">Explore Food Items</button> 
+            </a>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <a href="#special">
+              <button type="button" class="btn btn-danger">Our Speciality Dishes</button> 
+            </a>
+          </div>
+
+      </div>
+    </div>
+</div>
+<!-- ---------------------------------------------------------------------------------------------------- -->
+
+<div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="alert  alert-dismissible fade show" role="alert" id="alert">
+        <br>
+        <i class="fa fa-money" style="font-size: 80px;"></i><br><br>
+        Read the Policies carefully before you proceed. 
+        <br><br>
+  
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+    
+    <div class="row">
+        <div class="col-12" id="other_pg_title_bg">
+            <div class="container">
+                <div class="row py-1">
+                    <div class="col-12 py-5 d-flex justify-content-center">
+                        <span class="title_header">𝙋𝙧𝙞𝙫𝙖𝙘𝙮
+                            <br>
+                            <img src="privacy.png" class="img-fluid" style="height: 6rem; display: flex;margin-left: 40%;">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+<!-- ------------------------------------------------------------------------------------- -->
+    <div class="container">
+        <br><br><br><br>
+        <div class="row">
+           <div class="col-12">
+            <span class="text-danger other_pg_txt_1">
+                𝙒𝙝𝙤 𝙬𝙚 𝙖𝙧𝙚
+            </span>
+            <br>
+            <span class="text-warning other_pg_txt_2">
+                𝑶𝒖𝒓 𝒘𝒆𝒃𝒔𝒊𝒕𝒆 𝒂𝒅𝒅𝒓𝒆𝒔𝒔 𝒊𝒔: 𝒉𝒕𝒕𝒑𝒔://𝒄𝒓𝒐𝒘𝒏𝒓𝒆𝒔𝒕𝒐.𝒄𝒐𝒎
+            </span>
+            <br><br><br>
+            <span class="text-danger other_pg_txt_1">
+                𝙒𝙝𝙖𝙩 𝙥𝙚𝙧𝙨𝙤𝙣𝙖𝙡 𝙙𝙖𝙩𝙖 𝙬𝙚 𝙘𝙤𝙡𝙡𝙚𝙘𝙩 𝙖𝙣𝙙 𝙬𝙝𝙮 𝙬𝙚 𝙘𝙤𝙡𝙡𝙚𝙘𝙩 𝙞𝙩
+            </span>
+            <br><br>
+            <span class="text-warning other_pg_txt_3">
+                𝘾𝙤𝙢𝙢𝙚𝙣𝙩𝙨
+            </span>
+            <br>
+            <span class="text-info other_pg_txt_2">
+                <ul>
+                    <li>
+                        𝑾𝒉𝒆𝒏 𝒗𝒊𝒔𝒊𝒕𝒐𝒓𝒔 𝒍𝒆𝒂𝒗𝒆 𝒄𝒐𝒎𝒎𝒆𝒏𝒕𝒔 𝒐𝒏 𝒕𝒉𝒆 𝒔𝒊𝒕𝒆 𝒘𝒆 𝒄𝒐𝒍𝒍𝒆𝒄𝒕 𝒕𝒉𝒆 𝒅𝒂𝒕𝒂 𝒔𝒉𝒐𝒘𝒏 𝒊𝒏 𝒕𝒉𝒆 𝒄𝒐𝒎𝒎𝒆𝒏𝒕𝒔 𝒇𝒐𝒓𝒎, 𝒂𝒏𝒅 𝒂𝒍𝒔𝒐 𝒕𝒉𝒆 𝒗𝒊𝒔𝒊𝒕𝒐𝒓’𝒔 𝑰𝑷 𝒂𝒅𝒅𝒓𝒆𝒔𝒔 𝒂𝒏𝒅 𝒃𝒓𝒐𝒘𝒔𝒆𝒓 𝒖𝒔𝒆𝒓 𝒂𝒈𝒆𝒏𝒕 𝒔𝒕𝒓𝒊𝒏𝒈 𝒕𝒐 𝒉𝒆𝒍𝒑 𝒔𝒑𝒂𝒎 𝒅𝒆𝒕𝒆𝒄𝒕𝒊𝒐𝒏.
+                    </li>
+                    <br>
+                    <li>
+                        𝑨𝒏 𝒂𝒏𝒐𝒏𝒚𝒎𝒊𝒛𝒆𝒅 𝒔𝒕𝒓𝒊𝒏𝒈 𝒄𝒓𝒆𝒂𝒕𝒆𝒅 𝒇𝒓𝒐𝒎 𝒚𝒐𝒖𝒓 𝒆𝒎𝒂𝒊𝒍 𝒂𝒅𝒅𝒓𝒆𝒔𝒔 (𝒂𝒍𝒔𝒐 𝒄𝒂𝒍𝒍𝒆𝒅 𝒂 𝒉𝒂𝒔𝒉) 𝒎𝒂𝒚 𝒃𝒆 𝒑𝒓𝒐𝒗𝒊𝒅𝒆𝒅 𝒕𝒐 𝒕𝒉𝒆 𝑮𝒓𝒂𝒗𝒂𝒕𝒂𝒓 𝒔𝒆𝒓𝒗𝒊𝒄𝒆 𝒕𝒐 𝒔𝒆𝒆 𝒊𝒇 𝒚𝒐𝒖 𝒂𝒓𝒆 𝒖𝒔𝒊𝒏𝒈 𝒊𝒕. 𝑻𝒉𝒆 𝑮𝒓𝒂𝒗𝒂𝒕𝒂𝒓 𝒔𝒆𝒓𝒗𝒊𝒄𝒆 𝒑𝒓𝒊𝒗𝒂𝒄𝒚 𝒑𝒐𝒍𝒊𝒄𝒚 𝒊𝒔 𝒂𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 𝒉𝒆𝒓𝒆. 𝑨𝒇𝒕𝒆𝒓 𝒂𝒑𝒑𝒓𝒐𝒗𝒂𝒍 𝒐𝒇 𝒚𝒐𝒖𝒓 𝒄𝒐𝒎𝒎𝒆𝒏𝒕, 𝒚𝒐𝒖𝒓 𝒑𝒓𝒐𝒇𝒊𝒍𝒆 𝒑𝒊𝒄𝒕𝒖𝒓𝒆 𝒊𝒔 𝒗𝒊𝒔𝒊𝒃𝒍𝒆 𝒕𝒐 𝒕𝒉𝒆 𝒑𝒖𝒃𝒍𝒊𝒄 𝒊𝒏 𝒕𝒉𝒆 𝒄𝒐𝒏𝒕𝒆𝒙𝒕 𝒐𝒇 𝒚𝒐𝒖𝒓 𝒄𝒐𝒎𝒎𝒆𝒏𝒕.
+                    </li>
+                </ul>
+            </span>
+            <br><br><br>
+            <span class="text-warning other_pg_txt_3">
+                𝑴𝒆𝒅𝒊𝒂
+            </span>
+            <br>
+            <span class="text-info other_pg_txt_2">
+                𝑰𝒇 𝒚𝒐𝒖 𝒖𝒑𝒍𝒐𝒂𝒅 𝒊𝒎𝒂𝒈𝒆𝒔 𝒕𝒐 𝒕𝒉𝒆 𝒘𝒆𝒃𝒔𝒊𝒕𝒆, 𝒚𝒐𝒖 𝒔𝒉𝒐𝒖𝒍𝒅 𝒂𝒗𝒐𝒊𝒅 𝒖𝒑𝒍𝒐𝒂𝒅𝒊𝒏𝒈 𝒊𝒎𝒂𝒈𝒆𝒔 𝒘𝒊𝒕𝒉 𝒆𝒎𝒃𝒆𝒅𝒅𝒆𝒅 𝒍𝒐𝒄𝒂𝒕𝒊𝒐𝒏 𝒅𝒂𝒕𝒂 (𝑬𝑿𝑰𝑭 𝑮𝑷𝑺) 𝒊𝒏𝒄𝒍𝒖𝒅𝒆𝒅. 𝑽𝒊𝒔𝒊𝒕𝒐𝒓𝒔 𝒕𝒐 𝒕𝒉𝒆 𝒘𝒆𝒃𝒔𝒊𝒕𝒆 𝒄𝒂𝒏 𝒅𝒐𝒘𝒏𝒍𝒐𝒂𝒅 𝒂𝒏𝒅 𝒆𝒙𝒕𝒓𝒂𝒄𝒕 𝒂𝒏𝒚 𝒍𝒐𝒄𝒂𝒕𝒊𝒐𝒏 𝒅𝒂𝒕𝒂 𝒇𝒓𝒐𝒎 𝒊𝒎𝒂𝒈𝒆𝒔 𝒐𝒏 𝒕𝒉𝒆 𝒘𝒆𝒃𝒔𝒊𝒕𝒆.
+            </span>
+            <br><br><br>
+            <span class="text-danger other_pg_txt_1">
+                𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙛𝙤𝙧𝙢𝙨
+            </span>
+            <br>
+            <span class="text-warning other_pg_txt_3">
+                𝘾𝙤𝙤𝙠𝙞𝙚𝙨
+            </span>
+            <br>
+            <span class="text-info other_pg_txt_2">
+                <ul>
+                    <li>
+                        𝑰𝒇 𝒚𝒐𝒖 𝒍𝒆𝒂𝒗𝒆 𝒂 𝒄𝒐𝒎𝒎𝒆𝒏𝒕 𝒐𝒏 𝒐𝒖𝒓 𝒔𝒊𝒕𝒆 𝒚𝒐𝒖 𝒎𝒂𝒚 𝒐𝒑𝒕-𝒊𝒏 𝒕𝒐 𝒔𝒂𝒗𝒊𝒏𝒈 𝒚𝒐𝒖𝒓 𝒏𝒂𝒎𝒆, 𝒆𝒎𝒂𝒊𝒍 𝒂𝒅𝒅𝒓𝒆𝒔𝒔 𝒂𝒏𝒅 𝒘𝒆𝒃𝒔𝒊𝒕𝒆 𝒊𝒏 𝒄𝒐𝒐𝒌𝒊𝒆𝒔. 𝑻𝒉𝒆𝒔𝒆 𝒂𝒓𝒆 𝒇𝒐𝒓 𝒚𝒐𝒖𝒓 𝒄𝒐𝒏𝒗𝒆𝒏𝒊𝒆𝒏𝒄𝒆 𝒔𝒐 𝒕𝒉𝒂𝒕 𝒚𝒐𝒖 𝒅𝒐 𝒏𝒐𝒕 𝒉𝒂𝒗𝒆 𝒕𝒐 𝒇𝒊𝒍𝒍 𝒊𝒏 𝒚𝒐𝒖𝒓 𝒅𝒆𝒕𝒂𝒊𝒍𝒔 𝒂𝒈𝒂𝒊𝒏 𝒘𝒉𝒆𝒏 𝒚𝒐𝒖 𝒍𝒆𝒂𝒗𝒆 𝒂𝒏𝒐𝒕𝒉𝒆𝒓 𝒄𝒐𝒎𝒎𝒆𝒏𝒕. 𝑻𝒉𝒆𝒔𝒆 𝒄𝒐𝒐𝒌𝒊𝒆𝒔 𝒘𝒊𝒍𝒍 𝒍𝒂𝒔𝒕 𝒇𝒐𝒓 𝒐𝒏𝒆 𝒚𝒆𝒂𝒓.
+                    </li>
+                    <br>
+                    <li>
+                        𝑰𝒇 𝒚𝒐𝒖 𝒗𝒊𝒔𝒊𝒕 𝒐𝒖𝒓 𝒍𝒐𝒈𝒊𝒏 𝒑𝒂𝒈𝒆, 𝒘𝒆 𝒘𝒊𝒍𝒍 𝒔𝒆𝒕 𝒂 𝒕𝒆𝒎𝒑𝒐𝒓𝒂𝒓𝒚 𝒄𝒐𝒐𝒌𝒊𝒆 𝒕𝒐 𝒅𝒆𝒕𝒆𝒓𝒎𝒊𝒏𝒆 𝒊𝒇 𝒚𝒐𝒖𝒓 𝒃𝒓𝒐𝒘𝒔𝒆𝒓 𝒂𝒄𝒄𝒆𝒑𝒕𝒔 𝒄𝒐𝒐𝒌𝒊𝒆𝒔. 𝑻𝒉𝒊𝒔 𝒄𝒐𝒐𝒌𝒊𝒆 𝒄𝒐𝒏𝒕𝒂𝒊𝒏𝒔 𝒏𝒐 𝒑𝒆𝒓𝒔𝒐𝒏𝒂𝒍 𝒅𝒂𝒕𝒂 𝒂𝒏𝒅 𝒊𝒔 𝒅𝒊𝒔𝒄𝒂𝒓𝒅𝒆𝒅 𝒘𝒉𝒆𝒏 𝒚𝒐𝒖 𝒄𝒍𝒐𝒔𝒆 𝒚𝒐𝒖𝒓 𝒃𝒓𝒐𝒘𝒔𝒆𝒓.
+                    </li>
+                    <br>
+                    <li>
+                        𝑾𝒉𝒆𝒏 𝒚𝒐𝒖 𝒍𝒐𝒈 𝒊𝒏, 𝒘𝒆 𝒘𝒊𝒍𝒍 𝒂𝒍𝒔𝒐 𝒔𝒆𝒕 𝒖𝒑 𝒔𝒆𝒗𝒆𝒓𝒂𝒍 𝒄𝒐𝒐𝒌𝒊𝒆𝒔 𝒕𝒐 𝒔𝒂𝒗𝒆 𝒚𝒐𝒖𝒓 𝒍𝒐𝒈𝒊𝒏 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏 𝒂𝒏𝒅 𝒚𝒐𝒖𝒓 𝒔𝒄𝒓𝒆𝒆𝒏 𝒅𝒊𝒔𝒑𝒍𝒂𝒚 𝒄𝒉𝒐𝒊𝒄𝒆𝒔. 𝑳𝒐𝒈𝒊𝒏 𝒄𝒐𝒐𝒌𝒊𝒆𝒔 𝒍𝒂𝒔𝒕 𝒇𝒐𝒓 𝒕𝒘𝒐 𝒅𝒂𝒚𝒔, 𝒂𝒏𝒅 𝒔𝒄𝒓𝒆𝒆𝒏 𝒐𝒑𝒕𝒊𝒐𝒏𝒔 𝒄𝒐𝒐𝒌𝒊𝒆𝒔 𝒍𝒂𝒔𝒕 𝒇𝒐𝒓 𝒂 𝒚𝒆𝒂𝒓. 𝑰𝒇 𝒚𝒐𝒖 𝒔𝒆𝒍𝒆𝒄𝒕 “𝑹𝒆𝒎𝒆𝒎𝒃𝒆𝒓 𝑴𝒆”, 𝒚𝒐𝒖𝒓 𝒍𝒐𝒈𝒊𝒏 𝒘𝒊𝒍𝒍 𝒑𝒆𝒓𝒔𝒊𝒔𝒕 𝒇𝒐𝒓 𝒕𝒘𝒐 𝒘𝒆𝒆𝒌𝒔. 𝑰𝒇 𝒚𝒐𝒖 𝒍𝒐𝒈 𝒐𝒖𝒕 𝒐𝒇 𝒚𝒐𝒖𝒓 𝒂𝒄𝒄𝒐𝒖𝒏𝒕, 𝒕𝒉𝒆 𝒍𝒐𝒈𝒊𝒏 𝒄𝒐𝒐𝒌𝒊𝒆𝒔 𝒘𝒊𝒍𝒍 𝒃𝒆 𝒓𝒆𝒎𝒐𝒗𝒆𝒅.
+                    </li>
+                    <br>
+                    <li>
+                        𝑰𝒇 𝒚𝒐𝒖 𝒆𝒅𝒊𝒕 𝒐𝒓 𝒑𝒖𝒃𝒍𝒊𝒔𝒉 𝒂𝒏 𝒂𝒓𝒕𝒊𝒄𝒍𝒆, 𝒂𝒏 𝒂𝒅𝒅𝒊𝒕𝒊𝒐𝒏𝒂𝒍 𝒄𝒐𝒐𝒌𝒊𝒆 𝒘𝒊𝒍𝒍 𝒃𝒆 𝒔𝒂𝒗𝒆𝒅 𝒊𝒏 𝒚𝒐𝒖𝒓 𝒃𝒓𝒐𝒘𝒔𝒆𝒓. 𝑻𝒉𝒊𝒔 𝒄𝒐𝒐𝒌𝒊𝒆 𝒊𝒏𝒄𝒍𝒖𝒅𝒆𝒔 𝒏𝒐 𝒑𝒆𝒓𝒔𝒐𝒏𝒂𝒍 𝒅𝒂𝒕𝒂 𝒂𝒏𝒅 𝒔𝒊𝒎𝒑𝒍𝒚 𝒊𝒏𝒅𝒊𝒄𝒂𝒕𝒆𝒔 𝒕𝒉𝒆 𝒑𝒐𝒔𝒕 𝑰𝑫 𝒐𝒇 𝒕𝒉𝒆 𝒂𝒓𝒕𝒊𝒄𝒍𝒆 𝒚𝒐𝒖 𝒋𝒖𝒔𝒕 𝒆𝒅𝒊𝒕𝒆𝒅. 𝑰𝒕 𝒆𝒙𝒑𝒊𝒓𝒆𝒔 𝒂𝒇𝒕𝒆𝒓 𝟏 𝒅𝒂𝒚. 
+                    </li>
+                </ul>
+            </span>
+            <br><br>
+            
+           </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+    <!-- -------------------------------------------------------------------------------------- -->
+    <div class="row">
+        <div class="col-12" id="footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-12 d-flex justify-content-center">
+           <img src="logo.png" id="footer_logo">
+          </div>
+        
+          <div class="col-lg-4 d-flex justify-content-center mt-5">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                      <span class="text-white">𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗼𝘂𝗿 𝗔𝗽𝗽 𝗳𝗿𝗼𝗺 𝗣𝗹𝗮𝘆𝘀𝘁𝗼𝗿𝗲</span>
+                    </div>
+                      <div class="col-12 my-3 d-flex justify-content-center">
+                      <a href="https://play.google.com/store/apps/details?id=crownresto.com"><img src="playstore.png" id="playstore"></a> 
+                     </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 d-flex justify-content-center mt-5">
+             
+              <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                  <span class="text-center text-white footer_txt_1">𝑼𝒏𝒇𝒐𝒓𝒈𝒆𝒕𝒕𝒂𝒃𝒍𝒆 𝒆𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆 𝒘𝒊𝒕𝒉 𝒎𝒐𝒖𝒕𝒉𝒘𝒂𝒕𝒆𝒓𝒊𝒏𝒈 𝒇𝒐𝒐𝒅.</span>
+                </div>
+
+                  <div class="col-12 my-3 d-flex justify-content-center my-4">
+                    <i class="fa fa-phone" style="color:#F1C40F;font-size: 25px;margin-right: 10px;"></i>
+                    <span class="text-center text-white footer_txt_1">+91 - 8017 720 495</span>
+                 </div>
+
+                 <div class="col-12 my-3 d-flex justify-content-center my-4">
+                  <i class="fa fa-envelope" style="color:#F1C40F;font-size: 25px;margin-right: 10px;"></i>
+                  <span class="text-center text-white footer_txt_1">
+                    crownresto.in@gmail.com</span>
+               </div>
+            </div>
+         </div>
+
+
+         <div class="col-lg-4 d-flex justify-content-center mt-5">
+            <div class="row">
+
+              <div class="col-12 d-flex justify-content-center">
+                <a href="#">
+                  <button type="button" class="btn btn-outline-danger button_footer_review">
+                    Review Us on Google
+                    <i class="fa fa-arrow-right" style="margin-left: 10px;"></i>
+                  </button>
+                </a>
+              </div>
+
+              <div class="col-12 d-flex justify-content-center  mt-2">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-4 d-flex justify-content-center my-2">
+                          <i class="fa fa-youtube bg-danger" style="color: white; font-size: 25px; border:3px solid yellow; border-radius: 20px;padding: 0.6rem 0.6rem;"></i>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center my-2">
+                          <i class="fa fa-facebook-official bg-primary " style="color: white; font-size: 25px; border:3px solid yellow; border-radius: 20px;padding: 0.6rem 0.6rem;"></i>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center my-2">
+                          <i class="fa fa-instagram bg-dark" style="color: white; font-size: 25px; border:3px solid yellow; border-radius: 20px;padding: 0.6rem 0.6rem;"></i>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+
+
+
+            </div>
+        </div>
+        </div>
+<br><br><br><br>
+<div class="row">
+  <div class="col-lg-2 my-2 d-flex justify-content-center">
+    <a href="index.html#order_online">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">ORDER FOOD ONLINE</button>  
+    </a>
+  </div>
+          
+  <div class="col-lg-2 my-2 d-flex justify-content-center">
+    <a href="index.html#categories">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">VIEW DINING MENU</button>  
+    </a>
+  </div>
+  <div class="col-lg-2 my-2 d-flex justify-content-center">
+    <a href="terms_conditions.html">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">TERMS AND CONDITIONS</button>  
+    </a>
+  </div>
+  <div class="col-lg-2 my-2 d-flex justify-content-center">
+    <a href="cancel_refund.html">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">CANCELLATION AND REFUND</button>  
+    </a>
+  </div>
+  <div class="col-lg-2 my-2 d-flex justify-content-center">
+    <a href="shipping.html">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">SHIPPING</button>  
+    </a>
+  </div>
+  <div class="col-lg-2 my-2 d-flex justify-content-center">
+    <a href="privacy.html">
+      <button type="button" class="btn btn-outline-danger footer_btn_small">PRIVACY</button>  
+    </a>
+  </div>
+ 
+    
+</div>
+        <br><br>
+
+        <div class="col-12 d-flex justify-content-center text-white" style="font-size: 20px;font-weight: bold;">
+          <span class="text-warning"><i class="fa fa-copyright" style="font-size: 30px; margin-right: 10px;"></i></span> 𝘾𝙧𝙤𝙬𝙣 𝙍𝙚𝙨𝙩𝙤❟ 𝟮𝟬𝟮𝟭｡ 𝘼𝙡𝙡 𝙧𝙞𝙜𝙝𝙩𝙨 𝙧𝙚𝙨𝙚𝙧𝙫𝙚𝙙｡
+        </div>
+        <br><br><br>
+      </div>
+        </div>
+      </div>
+      
+
+<!-- container-fluid end -->
+        </div>
+        
+</body>
+</html>

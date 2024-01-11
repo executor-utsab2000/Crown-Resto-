@@ -1,0 +1,82 @@
+
+#bg_index{
+    background-image: url(bg_index.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size:cover;
+     height: auto;
+     width: 100vw;
+}
+
+
+#nav_bar{
+   top: 2%;
+   z-index: 3;
+   display: flex;
+   
+   
+  }
+  
+  
+  #nav_bar a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 2rem;
+    top: 0;
+    letter-spacing: 1px;
+  }
+  
+  #nav_bar a:hover{
+    color: #FFEB3B;
+    border-top: #FFEE58 3px solid;
+    border-bottom: #FFEE58 3px solid;
+    
+  }
+  
+  #toggler_icon{
+  transition: .5s;
+  }
+  
+  #toggler_icon:hover{
+  transform: rotate(90deg);
+  }
+
+
+
+#nav_bar_collapse {
+    display: none; /* Hide the logo by default */
+  }
+  #nav_bar_expand {
+    display: block; /* Show the text by default */
+        } 
+  /* ........................ */
+  @media (max-width: 991px) {
+     #nav_bar_collapse {
+      display: block;
+    }
+    #nav_bar_expand {
+      display: none;
+    }
+  }
+
+
+
+@media (min-width: 992px) {
+  #nav_bar {
+   margin-left:12vw ;
+ }
+ #nav_bar {
+  left: 0;
+ }
+}
+/* ----------------------------------------------------------- */
+
+
+
+
+
+ 
+
+
+

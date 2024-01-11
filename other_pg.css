@@ -1,0 +1,41 @@
+#other_pg_title_bg{
+    background-image: url(bg_other.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size:cover;
+     height: auto;
+     width: 100vw;
+}
+.title_header{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}   
+.banquet_booking_txt_1{
+color: aqua;
+font-weight: bold;
+font-size: 2rem;
+letter-spacing: 1px;
+}
+
+.banquet_txt_2{
+    font-size: .8rem;
+    color: yellow;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+/* ------------------------------------------------------------------------------------------ */
+/* terms and condiitions */
+.other_pg_txt_1{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.other_pg_txt_2{
+    font-size: 1rem;
+}
+.other_pg_txt_2{
+    font-size: 0.8rem;
+}
+/* ------------------------------------------------------------------------------------------- */

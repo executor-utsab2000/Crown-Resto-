@@ -1,0 +1,38 @@
+.mapouter{
+    width:40vw;
+    height:68vh;
+    border: #FFD54F 5px solid;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .gmap_canvas {
+    width:40vw;
+    height:68vh;
+  }
+  .gmap_iframe {
+    width:40vw!important;
+    height:68vh!important;
+  }
+
+  @media (max-width:992px) {
+    .mapouter{
+      height: 23rem;
+      width: 15rem;
+    }
+    
+    .gmap_canvas
+    {
+      height: 23rem;
+      width: 15rem;
+    }
+    
+    .gmap_iframe
+    {
+      height: 23rem !important;
+      width: 15rem !important;
+    }
+
+  }
+
+
+  
